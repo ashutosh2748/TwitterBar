@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2016, 5:07:23 PM
+    Author     : user
+*/
+body{
+    margin:auto;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+body{
+    margin:auto;
+}
+
+#menu {
+    
+  /*  background-color: lightgray;*/
+  margin-top: 2px;
+    border-top: 1px solid #DDD;
+    border-bottom: 3px solid #1B95E0;
+    padding: 15px 10px 0px 10px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: #8899a6;
+    width:100%
+   
+}
+#menu {
+	float:right;
+}
+#menu li{
+	display:inline-block;
+}
+#menu li a{
+	padding: 10px 15px 9px 15px;
+	color: #8899a6;
+	text-decoration:none;
+}
+#menu li a:hover{
+	color: #59676e;
+}
+h1{
+	float:left;
+}
+#menu h1 span{
+	font-weight:bold;
+	color: #000;
+}
+.clear{clear:both}
+
+#menu li.icon {display: none;}
+#menu a{
+    background-color: lightblue;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border:2px solid black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 7px;
+    float:right;
+       
+}
+
+
+#menu a:hover{
+    background-color: greenyellow;
+    color:orange;
+}
+#menu a:visited{
+    background-color: lightblue;
+    text-decoration: none;
+}
+#main ul {
+	margin: auto;
+	width: 300px;
+	text-align: left;
+}
+#main ul {
+	margin: auto;
+	width: 300px;
+	text-align: left;
+        position: absolute;
+        top:165px;
+        right:150px;
+}
+h2.ing{
+    margin: auto;
+	width: 300px;
+	text-align: left;
+        position: absolute;
+        top:140px;
+        right:150px;
+}
+h2.step{
+     margin: auto;
+	width: 300px;
+	text-align: left;
+}
+h1 {
+	font-family: sans-serif;
+	font-size: 30pt;
+}
+
+
+
+#main {
+	text-align: center;
+}
+
+#recipes {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#main ol{
+    margin: auto;
+	width: 300px;
+	text-align: left;
+}
+
+.banner {
+   width:100%;
+  }
+  
+  
+   .user{
+       padding:7px;
+	margin-bottom: 7px;
+}
+.user img{
+	vertical-align: middle;
+    /* border: 1px solid #EEE; */
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 55px;
+    height:55px;
+}
+
+.user-text{
+	
+}
+
+.user-text a{
+	color: #292f33;
+}
+
+.mybox {
+    height:200px;
+    overflow:hidden;
+    border:1px solid grey;
+    padding: 2px;
+}
+.tabbox{
+    margin-top: 10px;
+    padding-top: 10px;
+    }
+.footer{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
